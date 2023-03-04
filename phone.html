@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <!-- Main Meta Rulez-->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Site</title>
+      <!-- Very Nice Reset -->
+      <link rel="stylesheet" href="css/normalize.css" />
+      <!-- Font Icon Library -->
+      <link rel="stylesheet" href="css/all.min.css" />
+      <!-- Main Css Style -->
+      <link rel="stylesheet" href="css/style.css" />
+      <!-- Support HTML5-->
+      <!--[if lt IE 9]>
+          <script src="js/html5shiv.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <style>
+            /* Start Main Rulz */
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #efefef;
+}
+ul, ol
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*End Main Rulz*/
+
+/* Start Header */
+.container .mainheader {
+    background-color: #FFF;
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.container .mainheader .logo {
+    width: 20%;
+    height: 70%;
+    float: left;
+}
+.container .mainheader .logo img  {
+    width: 100px;
+    margin: 5px 0 5px 30px;
+}
+.container .mainheader nav {
+    width: 60%;
+    float: left;
+}
+.container .mainheader nav ul {
+    padding: 15px 0 0 30px;
+}
+.container .mainheader nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 0 0 50px;
+}
+.container .mainheader .lastmainheader {
+    width: 20%;
+    float: left;
+}
+.container .mainheader .lastmainheader input {
+    border: 1px solid #CCC;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 15px 10px 0 0;
+}
+/* End Header */
+
+/* Start Content */
+
+/* Start Side Bar*/
+.container .content .sidebar {
+    width: 20%;
+    float: left;
+    margin: 0 0.5% 10px 0.5%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+/*Start Widget*/
+.container .content .sidebar .widget {
+    margin-bottom: 5px;
+    color: #FFF;
+}
+.content .sidebar .widget .title {
+    background-color: #ff0000;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px 20px 0 0;
+    font-size: 28px;
+}
+.content .sidebar .widget .data {
+    background-color: #00F;
+    padding: 10px 0;
+}
+.content .sidebar .widget .data ul {
+    padding: 10px 0 10px 10px;
+    margin-left:20px;
+}
+.content .sidebar .widget .data li {
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px solid #A99;
+    font-size: 24px;
+    width: 60%;
+}
+.content .sidebar .widget .data img {
+    max-width: 80%;
+    margin: 30px;
+    border-radius: 20px;
+    display: inline-block;
+}
+/* End Widget*/
+
+/* End Side Bar*/
+
+/*Start Products*/
+.content .products {
+    background-color: rgb(23, 129, 227);
+    border-radius: 20px 20px 0 0;
+    width: 79%;
+    color: #FFF;
+    float: right;
+    padding: 30px 0;
+    overflow: hidden;
+}
+.content .products .product {
+    width: 23%;
+    float: left;
+    margin: 1% 1% 1% 1%;
+    border-radius: 20px 20px 0 0;
+    background-color: #F0F;
+    text-align: center;
+}
+.content .products .product img {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+.content .products .product span {
+    display: block;
+    padding: 5px;
+}
+.clear {
+    clear: both;
+}
+/*Start Footer*/
+.container footer {
+    color: #FFF;
+}
+.container footer .info {
+    background-color: #333;
+    min-height: 300px;
+}
+.container footer .info .box {
+    width: 33%;
+    float: left;
+    margin-left: 5px;
+}
+.container footer .info h2 {
+    padding: 10px;
+    border-bottom: 1px solid #888;
+    margin: 0 0 0 30px;
+}
+.container footer .info .box ul {
+    padding: 10px;
+}
+.container footer .info .box ul li {
+    padding: 10px;
+    margin:0 0 5px 30px;
+
+}
+.container footer .copyright {
+    background-color: #111111;
+    padding: 10px;
+    text-align: center;
+}
+/*End Footer*/
+        </style>
+      <div class="container">
+        <!-- Start Header -->
+        <header class="mainheader">
+          <div class="logo">
+            <img src="images/logo.jpg" alt="logo"/>
+          </div>
+          <nav class="mainnav">
+            <ul>
+              <li>Home</li>
+              <li>Account</li>
+              <li>Services</li>
+              <li>About us</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
+          <div class="lastmainheader">
+            <input type="search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Start Content -->
+        <div class="content">
+          <!-- Start Side Bar -->
+          <div class="sidebar">
+            <!-- Start widget First -->
+            <div class="widget">
+              <div class="title">Level</div>
+              <div class="data">
+                <ul>
+                  <li>First Stage</li>
+                  <li>Second Stage</li>
+                  <li>Third Stage</li>
+                  <li>Forth Stage</li>
+                </ul>
+              </div>
+            </div>
+            <!-- End widget First -->
+
+            <!-- Start widget Second -->
+            <div class="widget">
+              <div class="title">Lecture</div>
+              <div class="data">
+                <ul>
+                  <li>Power Point</li>
+                  <li>Voice Audio</li>
+                  <li>Quesion</li>
+                  <li>Exam</li>
+                </ul>
+              </div>
+            </div>
+            <!-- End widget Second -->
+
+            <!-- Start widget Third -->
+            <div class="widget">
+              <div class="title">Media</div>
+              <div class="data">
+                <ul>
+                  <li>Facebook</li>
+                  <li>Whatsapp</li>
+                  <li>Youtube</li>
+                  <li>E-mail</li>
+                </ul>
+              </div>
+            </div>
+            <!-- End widget Third -->
+
+            <!-- Start widget Forth -->
+            <div class="widget">
+              <div class="title">Screen</div>
+              <div class="data">
+                <i class="fa-brands fa-square-whatsapp fa-2xl"></i>
+                <i class="fa-brands fa-facebook fa-2xl"></i>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+                <i class="fa-solid fa-phone fa-2xl" ></i>
+                <i class="fa-solid fa-user fa-xl"></i>
+                <i class="fa-solid fa-house fa-lg"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-thin fa-circle-info fa-sm"></i>
+                <i class="fa-solid fa-bars fa-xs"></i>
+                <i class="fa-solid fa-envelope fa-2xs"></i>
+              </div>
+            </div>
+            <!-- End widget Forth -->
+
+            <!-- Start widget Fivth -->
+            <div class="widget">
+              <div class="title">Image</div>
+              <div class="data">
+                <img src="images/test.jpg" alt="name of catogry" />
+              </div>
+            </div>
+            <!-- End widget Fivth -->
+          </div>
+          <!-- End Side Bar -->
+
+          <!-- Start products -->
+          <div class="products">
+            <div class="product">
+              <img src="images/test.jpg" alt="product"/>
+              <span>more info</span>
+            </div>
+            <!-- Start product first -->
+            <div class="product">
+              <img src="images/test.jpg" alt="product" />
+              <span>more info</span>
+            </div>
+            <!-- End product first -->
+
+            <!-- Start product Second -->
+            <div class="product">
+              <img src="images/test.jpg" alt="product" />
+              <span>more info</span>
+            </div>
+            <!-- End product Second -->
+
+            <!-- Start product Thired -->
+            <div class="product">
+              <img src="images/test.jpg" alt="product" />
+              <span>more info</span>
+            </div>
+            <!-- End product Thired -->
+
+            <!-- Start product Forth -->
+            <div class="product">
+              <img src="images/test.jpg" alt="product" />
+              <span>more info</span>
+            </div>
+            <!-- End product Forth -->
+
+            <!-- Start product Fivth -->
+            <div class="product">
+              <img src="images/test.jpg" alt="product" />
+              <span>more info</span>
+            </div>
+            <!-- End product Fivth -->
+
+            <!-- Start product Sixth -->
+            <div class="product">
+              <img src="images/test.jpg" alt="product" />
+              <span>more info</span>
+            </div>
+            <!-- End product Sixth -->
+
+            <!-- Start product Seventh -->
+            <div class="product">
+              <img src="images/test.jpg" alt="product" />
+              <span>more info</span>
+            </div>
+            <!-- End product Seventh -->
+
+            <!-- Start product Eighth -->
+            <div class="product">
+              <img src="images/test.jpg" alt="product" />
+              <span>more info</span>
+            </div>
+            <!-- End product Eighth -->
+
+            <!-- Start product Ninth -->
+            <div class="product">
+              <img src="images/test.jpg" alt="product" />
+              <span>more info</span>
+            </div>
+             <!-- End product Ninth -->
+          </div>
+          <!-- End products -->
+        </div>
+        <!-- End Content -->
+            <div class="clear"></div>
+        <!-- Start Footer -->
+        <footer>
+          <!-- Start Footer Info -->
+          <div class="info">
+            <!-- Start Footer Copyright Box First-->
+            <div class="box">
+              <h2>Level</h2>
+              <ul>
+                <li>First Stage</li>
+                <li>Second Stage</li>
+                <li>Third Stage</li>
+                <li>Forth Stage</li>
+              </ul>
+            </div>
+            <!-- End Footer Copyright Box First-->
+
+            <!-- Start Footer Copyright Box Second-->
+            <div class="box">
+              <h2>Screen</h2>
+              <ul>
+                <li>Power Point</li>
+                <li>Voice Audio</li>
+                <li>Quesion</li>
+                <li>Exam</li>
+              </ul>
+            </div>
+            <!-- End Footer Copyright Box Second-->
+
+            <!-- Start Footer Copyright Box Third-->
+            <div class="box">
+              <h2>Media</h2>
+              <ul>
+                <li>Facebook</li>
+                <li>Whatsapp</li>
+                <li>Youtube</li>
+                <li>E-mail</li>
+              </ul>
+            </div>
+            <!-- End Footer Copyright Box Third-->
+          </div>
+          <!-- End Footer Info -->
+                <div class="clear"></div>
+          <!-- Start Footer Copyright -->
+          <div class="copyright">All Rights Reserved By Ahmed Rabie &copy; 2023</div>
+          <!-- End Footer Copyright -->
+        </footer>
+        <!-- Start Footer -->
+      </div>
+      <script src="js/jquery-3.6.3.min"></script>
+      <script src="js/all.min.js"></script>
+      <script src="js/plugin.js"></script>
+    </body>
+  </html>
